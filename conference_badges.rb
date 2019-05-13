@@ -20,6 +20,6 @@ def assign_rooms(speakers)
     counter += 1
 end
   def printer
-
-  end speakersbr
+    return speakerbr
+  end
 end
