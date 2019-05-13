@@ -29,3 +29,4 @@ end
   assign_rooms(array).each do |nn|
     return nn
 end
+end
