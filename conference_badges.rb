@@ -1,7 +1,7 @@
-def batch_badge_creator(name)
-  name = ["Edsger", "Ada", "Charles", "Alan", "Grace", "Linus", "Matz"]
+def batch_badge_creator(speakers)
+  speakers = ["Edsger", "Ada", "Charles", "Alan", "Grace", "Linus", "Matz"]
 end
 
-def assign_rooms(name)
+def assign_rooms(speakers)
 
 end
