@@ -22,10 +22,10 @@ end
   return speakersbr
 end
 
-def printer(speakers)
-  batch_badge_creator(speakers).each do |nn|
+def printer(array)
+  batch_badge_creator(array).each do |nn|
     return nn
 end
-  assign_rooms(speakers).each do |nn|
+  assign_rooms(array).each do |nn|
     return nn
 end
