@@ -14,10 +14,10 @@ end
 
 def assign_rooms(speakers)
   speakersbr = []
-  room = 1
+  counter = 1
   speakers.each do |name|
     speakersbr.push("Hello, #{name}! You'll be assigned to room #{counter}!")
-    room += 1
+    counter += 1
 end
 
 def printer
