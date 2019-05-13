@@ -14,7 +14,9 @@ end
 
 def assign_rooms(speakers)
   speakersbr = []
+  counter = 1
   speakers.each do |name|
+    speakersbr.push("Hello, #{name}! You'll be assigned to room 1!")
 end
 
 def printer
