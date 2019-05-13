@@ -9,7 +9,7 @@ def batch_badge_creator(speakers)
   speakers.each do |name|
     speakersbadge.push("Hello, my name is #{name}.")
   end
-  return speakersbadge
+  return speakersb
 end
 
 def assign_rooms(speakers)
