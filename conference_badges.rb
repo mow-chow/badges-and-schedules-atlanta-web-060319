@@ -7,7 +7,7 @@ end
 def batch_badge_creator(speakers)
   speakers = []
   speakers.each do |name|
-    speakersbadge.push("Hello, my name is #{name}.")
+    speakersb.push("Hello, my name is #{name}.")
   end
   return speakersb
 end
