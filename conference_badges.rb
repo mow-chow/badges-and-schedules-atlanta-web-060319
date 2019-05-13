@@ -14,7 +14,7 @@ end
 
 def assign_rooms(speakers)
   speakersbr = []
-  
+  speakers.each do |name|
 end
 
 def printer
