@@ -6,7 +6,7 @@ def batch_badge_creator(speakers)
   speakers = ["Edsger", "Ada", "Charles", "Alan", "Grace", "Linus", "Matz"]
   speakers_badge = []
   speakers.each do |i|
-    speakers_badge.push ("Hello, my name is #{speakers}.")
+    speakers_badge.push ("Hello, my name is #{i}.")
 end
 
 def assign_rooms(speakers)
